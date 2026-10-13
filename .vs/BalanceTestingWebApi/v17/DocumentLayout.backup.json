@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\controllers\\centerofpressureoptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:controllers\\centerofpressureoptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\models\\forceplatemanufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:models\\forceplatemanufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\balancetestingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:balancetestingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\models\\forceplatemanufacturerxref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:models\\forceplatemanufacturerxref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\models\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:models\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\models\\forceplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:models\\forceplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\models\\testtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:models\\testtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\models\\sensorfusionalgorithmlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:models\\sensorfusionalgorithmlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\models\\mainlinesurgicalbalancetestercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:models\\mainlinesurgicalbalancetestercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|c:\\saad\\employment related\\mainline surgical\\mainline surgical center\\balancetestingcurrent\\balancetesting\\balancetestingwebapi\\balancetestingwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BE8E76EF-9699-82B2-2830-E48162A63742}|BalanceTestingWebApi.csproj|solutionrelative:balancetestingwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\MainPage.cs",
+              "RelativeDocumentMoniker": "Models\\MainPage.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\MainPage.cs",
+              "RelativeToolTip": "Models\\MainPage.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T16:34:15.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForcePlate.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\ForcePlate.cs",
+              "RelativeDocumentMoniker": "Models\\ForcePlate.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\ForcePlate.cs",
+              "RelativeToolTip": "Models\\ForcePlate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T16:13:51.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CenterOfPressureOptionsController.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Controllers\\CenterOfPressureOptionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CenterOfPressureOptionsController.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Controllers\\CenterOfPressureOptionsController.cs",
+              "RelativeToolTip": "Controllers\\CenterOfPressureOptionsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T02:07:12.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BalanceTestingDBContext.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\BalanceTestingDBContext.cs",
+              "RelativeDocumentMoniker": "BalanceTestingDBContext.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\BalanceTestingDBContext.cs",
+              "RelativeToolTip": "BalanceTestingDBContext.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:15:19.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForcePlateManufacturer.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\ForcePlateManufacturer.cs",
+              "RelativeDocumentMoniker": "Models\\ForcePlateManufacturer.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\ForcePlateManufacturer.cs",
+              "RelativeToolTip": "Models\\ForcePlateManufacturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T15:18:34.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForcePlateManufacturerXref.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\ForcePlateManufacturerXref.cs",
+              "RelativeDocumentMoniker": "Models\\ForcePlateManufacturerXref.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\ForcePlateManufacturerXref.cs",
+              "RelativeToolTip": "Models\\ForcePlateManufacturerXref.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T16:40:12.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MainController.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Controllers\\MainController.cs",
+              "RelativeToolTip": "Controllers\\MainController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAI8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T00:34:55.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T00:43:52.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T00:54:36.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestType.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\TestType.cs",
+              "RelativeDocumentMoniker": "Models\\TestType.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\TestType.cs",
+              "RelativeToolTip": "Models\\TestType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T15:18:49.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SensorFusionAlgorithmLevel.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\SensorFusionAlgorithmLevel.cs",
+              "RelativeDocumentMoniker": "Models\\SensorFusionAlgorithmLevel.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\SensorFusionAlgorithmLevel.cs",
+              "RelativeToolTip": "Models\\SensorFusionAlgorithmLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T00:27:23.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-16T15:15:28.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainlineSurgicalBalanceTesterContext.cs",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\MainlineSurgicalBalanceTesterContext.cs",
+              "RelativeDocumentMoniker": "Models\\MainlineSurgicalBalanceTesterContext.cs",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\Models\\MainlineSurgicalBalanceTesterContext.cs",
+              "RelativeToolTip": "Models\\MainlineSurgicalBalanceTesterContext.cs",
+              "ViewState": "AgIAAAcCAAAAAAAAAAAAAAkCAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:28:47.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BalanceTestingWebApi.csproj",
+              "DocumentMoniker": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\BalanceTestingWebApi.csproj",
+              "RelativeDocumentMoniker": "BalanceTestingWebApi.csproj",
+              "ToolTip": "C:\\Saad\\Employment Related\\Mainline Surgical\\Mainline Surgical Center\\BalanceTestingCurrent\\BalanceTesting\\BalanceTestingWebApi\\BalanceTestingWebApi.csproj",
+              "RelativeToolTip": "BalanceTestingWebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-16T00:34:44.719Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
