@@ -19,36 +19,50 @@ namespace BalanceTestingWebApi.Controllers
             _context = context;
         }
 
-        [HttpPost]
-        [Route("login")]
-        [Authorize]
-        public async Task<IActionResult> Login([FromForm] string username, [FromForm] string password)
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(
+     [FromBody] LoginRequest request)
         {
-            List<Login> users = new List<Login>();
-            var user = new List<Patient>();
+            if (request == null ||
+                string.IsNullOrWhiteSpace(request.Username) ||
+                string.IsNullOrWhiteSpace(request.Password))
+            {
+                return BadRequest(new
+                {
+                    message = "Username and password are required."
+                });
+            }
+
             try
             {
-                //var optionsBuilder = new DbContextOptionsBuilder<BalanceTestingDBContext>();
-                //optionsBuilder.UseSqlServer(@"Server=Saad-Laptop\PHILLYDATA2022;Database=MainlineSurgicalBalanceTester;User Id=mainlinesurgery;Password=mainlinesurgery2;Encrypt=False;Pooling=False;TrustServerCertificate=True;", options => options.EnableRetryOnFailure());
+                var patient = await _context.patients
+                    .AsNoTracking()
+                    .FirstOrDefaultAsync(x =>
+                        x.Login == request.Username);
 
-                //var context = new BalanceTestingDBContext(optionsBuilder.Options);
-                user = _context.patients.Where(x => x.Login== username && x.Password == password).ToList();
-                // After a successful login response containing the token:
-                //await SecureStorage.SetAsync("jwt_token", user.Token);
+                if (patient == null ||
+                    patient.Password != request.Password)
+                {
+                    return Unauthorized(new
+                    {
+                        message = "Invalid username or password."
+                    });
+                }
 
+                return Ok(new
+                {
+                    message = "Login successful"
+                });
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex);
+
+                return StatusCode(500, new
+                {
+                    message = "An internal server error occurred."
+                });
             }
-
-            finally
-            {
-
-            }
-
-            return Ok(user) ;
-
         }
     }
 }

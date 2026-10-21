@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using System.Collections.Generic;
 using System.Web.Http;
 using HttpGetAttribute = Microsoft.AspNetCore.Mvc.HttpGetAttribute;
 using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
@@ -22,7 +23,6 @@ namespace BalanceTestingWebApi.Controllers
             _context = context;
         }
 
-        [Authorize]
         [HttpGet("maindetails/{id}")]
         public ActionResult<List<MainPage>> GetMainDetails(int id)
         {
@@ -37,7 +37,7 @@ namespace BalanceTestingWebApi.Controllers
             
             try
             {
-                if (id== 0)
+                if (id == 0)
                 {
                     MainPage mainPage = new MainPage();
 
@@ -65,11 +65,13 @@ namespace BalanceTestingWebApi.Controllers
                 else
                 {
 
-#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
-                    MainPage mainPage = _context.mainPage.Where(m => m.MainPageId == id).FirstOrDefault();
-#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
-                    mainPageItems.Add(mainPage);
+                    MainPage mainPage = _context.mainPage.Where(m => m.MainPageId == id).First();
+
+                    if (mainPage is not null)
+                    {
+                        mainPageItems.Add(mainPage);
                     }
+                }
             }
 
             catch (Exception ex)
@@ -80,41 +82,26 @@ namespace BalanceTestingWebApi.Controllers
             return Ok(mainPageItems);
         }
 
-        [Authorize]
-        [HttpGet]
-        [Route("testtypes")]
-        public ActionResult<List<TestType>> GetTestTypes()
-        {
-            List<TestType> testTypes = new List<TestType>();
-
-            //var optionsBuilder = new DbContextOptionsBuilder<BalanceTestingDBContext>();
-            //optionsBuilder.UseSqlServer("Server=Saad-Laptop\\PHILLYDATA2022;Database=MainlineSurgicalBalanceTester;User Id=mainlinesurgery;Password=mainlinesurgery2;Encrypt=False;Pooling=False;TrustServerCertificate=False;", options => options.EnableRetryOnFailure());
-
-
-            //var context = new BalanceTestingDBContext(optionsBuilder.Options);
-
-            try
+            [HttpGet]
+            [Route("testtypes")]
+            public ActionResult<List<TestType>> GetTestTypes()
             {
+                try
+                {
+                    var testTypes = _context.testTypes.ToList();
+                    return Ok(testTypes);
+                }
+                catch (Exception ex)
+                {
+                    Console.Error.WriteLine(
+                        $"GetTestTypes failed: {ex}");
 
-                var dbName = _context.Database.GetDbConnection().Database;
-                var server = _context.Database.GetDbConnection().DataSource;
-
-                Console.WriteLine($"DB: {dbName}");
-                Console.WriteLine($"Server: {server}");
-
-                testTypes = _context.testTypes.ToList();
-            
+                    return Problem(
+                        title: "Failed to retrieve test types",
+                        statusCode: StatusCodes.Status500InternalServerError);
+                }
             }
 
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.Message);
-            }
-
-            return Ok(testTypes);
-        }
-
-        [Authorize]
         [HttpGet]
         [Route("sensorspeeds")]
         public ActionResult<List<SensorSpeed>> GetSensorSpeeds()
@@ -140,7 +127,6 @@ namespace BalanceTestingWebApi.Controllers
             return Ok(sensorSpeeds);
         }
 
-        [Authorize]
         [HttpGet]
         [Route("sensorfusionalgorithms")]
         public ActionResult<List<SensorFusionAlgorithmLevel>> GetSensorFusionAlgorithms()
@@ -159,13 +145,15 @@ namespace BalanceTestingWebApi.Controllers
 
             catch (Exception ex)
             {
-                Console.WriteLine(ex.InnerException.ToString());
+                if (ex is not null)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
             }
 
             return Ok(sensorFusionAlgorithmLevels);
         }
 
-        [Authorize]
         [HttpGet]
         [Route("filters")]
         public ActionResult<List<Filter>> GetFilters()

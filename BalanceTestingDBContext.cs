@@ -1,15 +1,15 @@
 ﻿using BalanceTestingWebApi.Models;
+using BalanceTestingWebAPi.contracts.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace BalanceTestingWebApi
 {
-    public class BalanceTestingDBContext : DbContext
+    public class BalanceTestingDBContext : DbContext, IBalanceDbContext
     {
 
         public BalanceTestingDBContext(DbContextOptions<BalanceTestingDBContext> options)
         : base(options)
         {
-
         }
 
         public BalanceTestingDBContext()
@@ -21,7 +21,9 @@ namespace BalanceTestingWebApi
             Value = value;
         }
 
-        public DbSet<Login> login { get; set; }    
+
+        DbSet<AnatomyGooglePoselandmarkerLandmarkXref> AnatomyGooglePoselandmarkerLandmarkXrefs { get; set; }
+        public DbSet<Login> login { get; set; }
         public DbSet<MainPage> mainPage { get; set; }
         public DbSet<CenterOfPressure> centerOfPressure { get; set; }
 
@@ -40,7 +42,7 @@ namespace BalanceTestingWebApi
         public DbSet<ForcePlate> forcePlates { get; set; }
 
         public DbSet<ForcePlateManufacturerXref> forcePlateManufacturerXrefs { get; set; }
-        public Func<object, object> Value { get; }
+        public Func<object, object> Value { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -59,6 +61,11 @@ namespace BalanceTestingWebApi
 
             modelBuilder.Entity<ForcePlateManufacturerXref>()
                 .ToTable("ForcePlate_Manufacturer_XRef");   // or whatever the actual table name is
+        }
+
+        Task<int> IBalanceDbContext.SaveChangesAsync(CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
         }
     }
 }
