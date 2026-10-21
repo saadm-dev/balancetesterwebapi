@@ -7,6 +7,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<DefaultItemExcludes>$(DefaultItemExcludes);BalanceTestingWebApiClassLibrary\**\*;bin\**\*;obj\**\*</DefaultItemExcludes>
+	</PropertyGroup>
+
   <ItemGroup>
     <Content Remove="appsettings.json" />
   </ItemGroup>
@@ -36,7 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BalanceTestingWebApiClassLibrary\BalanceTesting.contracts.csproj" />
+    <ProjectReference Include="BalanceTestingWebApiClassLibrary\BalanceTesting.contracts.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,12 @@
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\bin\Debug\net9.0\BalanceTesting.contracts.deps.json
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\bin\Debug\net9.0\BalanceTesting.contracts.dll
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\bin\Debug\net9.0\BalanceTesting.contracts.pdb
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\obj\Debug\net9.0\BalanceTesting.contracts.csproj.AssemblyReference.cache
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\obj\Debug\net9.0\BalanceTesting.contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\obj\Debug\net9.0\BalanceTesting.contracts.AssemblyInfoInputs.cache
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\obj\Debug\net9.0\BalanceTesting.contracts.AssemblyInfo.cs
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\obj\Debug\net9.0\BalanceTesting.contracts.csproj.CoreCompileInputs.cache
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\obj\Debug\net9.0\BalanceTesting.contracts.dll
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\obj\Debug\net9.0\refint\BalanceTesting.contracts.dll
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\obj\Debug\net9.0\BalanceTesting.contracts.pdb
+C:\BalanceTestingCurrent\BalanceTesting\BalanceTestingWebApiClassLibrary\obj\Debug\net9.0\ref\BalanceTesting.contracts.dll
